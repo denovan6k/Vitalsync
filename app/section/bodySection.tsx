@@ -28,7 +28,7 @@ const BodySection = () => {
     <div className='grid grid-cols-2 gap-4 mt-[100px]  ' >
     <div className='flex flex-col gap-8'>
         <ul className='flex flex-col gap-4'>
-            <li className='text-white text-2xl'>
+            <li className='text-white text-xl md:text-2xl'>
             Body Measurements
             </li>
             <li className='text-[#CACACA]'>
