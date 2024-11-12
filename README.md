@@ -1,36 +1,70 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Health Fitness Dashboard 🏋️‍♂️
 
-## Getting Started
+A modern, responsive health and fitness dashboard that tracks and visualizes health metrics. Built using **Next.js**, **TypeScript**, and **Chakra UI**, this application provides users with an intuitive interface for monitoring their health data.
 
-First, run the development server:
+## Features ✨
 
+- 📊 **Health Metrics Tracking**: Monitor key health stats like heart rate, calories, and steps.
+- 📅 **Daily & Weekly Reports**: View detailed reports for daily and weekly fitness progress.
+- 📱 **Responsive Design**: Optimized for mobile, tablet, and desktop viewing.
+
+
+## Tech Stack 🛠️
+
+- **Framework**: [Next.js](https://nextjs.org/)
+- **Language**: TypeScript
+- **UI Library**: [Chakra UI](https://chakra-ui.com/)
+
+
+## Getting Started 🚀
+
+### Prerequisites
+
+- [Node.js](https://nodejs.org/) (version 16 or higher recommended)
+- [npm](https://www.npmjs.com/) or [yarn](https://yarnpkg.com/) as package manager
+
+### Installation
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/denovan6k/health-fitness-dashboard.git
+
+   ```
+2. Navigate to the project and install the dependencies:
 ```bash
+cd health-fitness-dashboard
+# Using npm
+npm install
+
+# Or using yarn
+yarn install
+
+
+# Using npm
+npm install @chakra-ui/react @emotion/react @emotion/styled framer-motion
+
+# Or using yarn
+yarn add @chakra-ui/react @emotion/react @emotion/styled framer-motion
+
+```
+# Start the development server
+```bash 
+# Using npm
 npm run dev
-# or
+
+# Or using yarn
 yarn dev
-# or
-pnpm dev
-# or
-bun dev
+
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+# Folder Structure 
+```bash
+.
+├── /app/                    # App router structure
+        ├── /components/     # Reusable UI components
+├── /data/                  # data for components
+├── /public/                 # Static assets like images, fonts, etc.
+├── /section/                 # section for multiple components
+├── /components/              # chakra UI components
+```
